@@ -1,0 +1,146 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="author" content="dev.sitechco.ru" />
+    </head>
+<table  border="1">
+    <tr>
+        <td colspan="4">Название (Аббр.): Варианты регистрации с различными паролями (PWSM)</td>
+    </tr>
+    <tr>
+        <td colspan="4">Описание: Составлялась майнд-карта, в которой учтены доступные типы символов и ограничение на количество символов пароля. По ней составили этот чек-лист, а затем для каждой проверки создали тест-кейс, так как регистрация — многошаговый процесс с несколькими вх. па</td>
+    </tr>
+            <tr>
+        <td colspan="4">Статус: Не согласован </td>
+    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Проверки на ТИП вводимых символов</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            1        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация с паролем из латинских символов и цифр   ТК-Р16</td>
+                <td>Сообщение об успешной регистрации</td>
+                    </tr>
+        <tr>
+        <td>
+            2        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация с паролем только из латинских букв   ТК-Р17</td>
+                <td>Сообщение о том, что пароль должен содержать латинские буквы и цифры. Сообщения об успешной регистрации нет</td>
+                    </tr>
+        <tr>
+        <td>
+            3        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация с паролем только из цифр   ТК-Р18</td>
+                <td>Сообщение о том, что пароль должен содержать латинские буквы и цифры. Сообщения об успешной регистрации нет</td>
+                    </tr>
+        <tr>
+        <td>
+            4        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация с паролем из кириллических букв и цифр   ТК-Р19</td>
+                <td>Сообщение о том, что пароль должен содержать латинские буквы и цифры. Сообщения об успешной регистрации нет</td>
+                    </tr>
+        <tr>
+        <td>
+            5        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация с пустым полем пароля  ТК-Р20</td>
+                <td>Сообщение о том, что пароль должен содержать латинские буквы и цифры. Сообщения об успешной регистрации нет</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Проверки на ДЛИНУ вводимых символов</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            6        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация со вводом короткого пароля, находящегося на границе допустимой длины (6 символов)   ТК-Р06</td>
+                <td>Сообщение об успешной регистрации</td>
+                    </tr>
+        <tr>
+        <td>
+            7        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация со вводом недопустимо короткого пароля (5 символов)   ТК-Р07</td>
+                <td>Сообщение о том, что длина пароля должна быть в пределах от 6 до 16 символов. Сообщения об успешной регистрации нет</td>
+                    </tr>
+        <tr>
+        <td>
+            8        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация со вводом длинного пароля, находящегося на границе дозволенного (16 символов)   ТК-Р08</td>
+                <td>Сообщение об успешной регистрации</td>
+                    </tr>
+        <tr>
+        <td>
+            9        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация со вводом недопустимо длинного пароля  (17 символов)   ТК-Р09</td>
+                <td>Сообщение: "длина пароля должна составлять от 4 до 16 знаков!" Сообщения об успешной регистрации нет</td>
+                    </tr>
+        <tr>
+        <td>
+            10        </td>
+        <td>
+            Средний        </td>
+        <td>Регистрация со вводом пароля средней длины (12 знаков)   ТК-Р10</td>
+                <td>Сообщение об успешной регистрации</td>
+                    </tr>
+            </table>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> 
+(function (d, w, c) { (w[c] = w[c] || []).push(function() {
+	try { w.yaCounter43980704 = new Ya.Metrika({
+			id:43980704,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true
+		}); }
+	catch(e) { } });
+	var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript"; s.async = true;
+	s.src = "https://mc.yandex.ru/metrika/watch.js";
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); }
+	else { f(); } })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43980704" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->

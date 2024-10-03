@@ -1,0 +1,152 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="author" content="dev.sitechco.ru" />
+    </head>
+<table  border="1">
+    <tr>
+        <td colspan="4">Название (Аббр.): Универсальные проверки верстки (FRNT)</td>
+    </tr>
+    <tr>
+        <td colspan="4">Описание: </td>
+    </tr>
+            <tr>
+        <td colspan="4">Статус: Не согласован </td>
+    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Группа тестов без названия</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            1        </td>
+        <td>
+            Средний        </td>
+        <td>Цвет и размер элементов</td>
+                <td>Соответствует требованиям/макету/дизайн-системе</td>
+                    </tr>
+        <tr>
+        <td>
+            2        </td>
+        <td>
+            Средний        </td>
+        <td>Шрифт</td>
+                <td>Соответствует требованиям/макету/дизайн-системе</td>
+                    </tr>
+        <tr>
+        <td>
+            3        </td>
+        <td>
+            Средний        </td>
+        <td>Расположение элементов на странице</td>
+                <td>Соответствует требованиям/макету/дизайн-системе</td>
+                    </tr>
+        <tr>
+        <td>
+            4        </td>
+        <td>
+            Средний        </td>
+        <td>Открытие/закрытие меню навигации по гамбургеру</td>
+                <td>При открытии меню движется с правой точки экрана влево. При закрытии -- наоборот</td>
+                    </tr>
+        <tr>
+        <td>
+            5        </td>
+        <td>
+            Средний        </td>
+        <td>Валидация ввода email</td>
+                <td>Программа сообщает об отсутствии символа @</td>
+                    </tr>
+        <tr>
+        <td>
+            6        </td>
+        <td>
+            Средний        </td>
+        <td>Валидация ввода номера телефона</td>
+                <td>Программа пресекает ввод не цифр</td>
+                    </tr>
+        <tr>
+        <td>
+            7        </td>
+        <td>
+            Средний        </td>
+        <td>Сообщения JS в консоли браузера</td>
+                <td>Отсутствует описание ошибок (Errors)</td>
+                    </tr>
+        <tr>
+        <td>
+            8        </td>
+        <td>
+            Средний        </td>
+        <td>Сохранение данных формы при переходе назад/вперед по стрелкам браузера</td>
+                <td>Данные сохраняются</td>
+                    </tr>
+        <tr>
+        <td>
+            9        </td>
+        <td>
+            Средний        </td>
+        <td>Переходы по ссылкам</td>
+                <td>Выполняются</td>
+                    </tr>
+        <tr>
+        <td>
+            10        </td>
+        <td>
+            Средний        </td>
+        <td>Переходы по кнопкам навигации в шапке сайта</td>
+                <td>Передвигают пользователя к выбранной части сайта</td>
+                    </tr>
+        <tr>
+        <td>
+            11        </td>
+        <td>
+            Средний        </td>
+        <td>Переходы по ссылкам в подвале сайта</td>
+                <td>Происходит переадресация на ресурс, указанный в ссылке</td>
+                    </tr>
+        <tr>
+        <td>
+            12        </td>
+        <td>
+            Средний        </td>
+        <td>Верстка корректно отображается на устройствах с различным разрешением при вертикальном и горизонтальном просмотре</td>
+                <td>Не появляется горизонтальная прокрутка, блоки не накладываются друг на друга и не «плывут». Проверка с помощью сервиса Screenfly.</td>
+                    </tr>
+        <tr>
+        <td>
+            13        </td>
+        <td>
+            Средний        </td>
+        <td>Отображение верстки в трех самых распространенных для данной категории пользователей браузерах (их можно увидеть при помощи сервиса   https://gs.statcounter.com/   )</td>
+                <td>Отображение верстки соответствует требованиям и одинаково во всех браузерах</td>
+                    </tr>
+            </table>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> 
+(function (d, w, c) { (w[c] = w[c] || []).push(function() {
+	try { w.yaCounter43980704 = new Ya.Metrika({
+			id:43980704,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true
+		}); }
+	catch(e) { } });
+	var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript"; s.async = true;
+	s.src = "https://mc.yandex.ru/metrika/watch.js";
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); }
+	else { f(); } })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43980704" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->

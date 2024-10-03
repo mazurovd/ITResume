@@ -1,0 +1,227 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="author" content="dev.sitechco.ru" />
+    </head>
+<table  border="1">
+    <tr>
+        <td colspan="4">Название (Аббр.): Фронтенд-проверки(углуб) (FRNA)</td>
+    </tr>
+    <tr>
+        <td colspan="4">Описание: </td>
+    </tr>
+            <tr>
+        <td colspan="4">Статус: Не согласован </td>
+    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Группа тестов без названия</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            1        </td>
+        <td>
+            Средний        </td>
+        <td>TimeLine загрузки адекватен?</td>
+                <td>Для одностраничника: <br />
+First ContentFul Paint <= 1sec<br />
+Time to Interactive <= 2 sec</td>
+                    </tr>
+        <tr>
+        <td>
+            2        </td>
+        <td>
+            Средний        </td>
+        <td>HTML валиден по валидатору?</td>
+                <td>Ошибок нет</td>
+                    </tr>
+        <tr>
+        <td>
+            3        </td>
+        <td>
+            Средний        </td>
+        <td>Присутствуют ли семантические теги (как минимум h1, h2)</td>
+                <td>Да</td>
+                    </tr>
+        <tr>
+        <td>
+            4        </td>
+        <td>
+            Средний        </td>
+        <td>HTML минимизирован (сжатие и удаление неиспользуемого кода)?</td>
+                <td>Да</td>
+                    </tr>
+        <tr>
+        <td>
+            5        </td>
+        <td>
+            Средний        </td>
+        <td>CSS минимизирован (сжатие и удаление неиспользуемого кода)?<br />
+Неиспользуемый -- Coverage</td>
+                <td>Да</td>
+                    </tr>
+        <tr>
+        <td>
+            6        </td>
+        <td>
+            Средний        </td>
+        <td>Поведение страницы при отключении интернета</td>
+                <td>Соответствует требоваиям</td>
+                    </tr>
+        <tr>
+        <td>
+            7        </td>
+        <td>
+            Средний        </td>
+        <td>Отображение страницы с отключенным JS</td>
+                <td>Вариант прорисовки сайта без JS предусмотрен и имеет утвержденный вид</td>
+                    </tr>
+        <tr>
+        <td>
+            8        </td>
+        <td>
+            Средний        </td>
+        <td>JavaScript содержит ошибки? (проверка через сервис   https://codebeautify.org/jsvalidate#google_vignette   )</td>
+                <td></td>
+                    </tr>
+        <tr>
+        <td>
+            9        </td>
+        <td>
+            Средний        </td>
+        <td>Есть ошибки загрузки ресурсов (изображения, иконки и т.д.)?</td>
+                <td>Нет</td>
+                    </tr>
+        <tr>
+        <td>
+            10        </td>
+        <td>
+            Средний        </td>
+        <td>Изображения оптимизированы? (использованы современные форматы? для png можно использовать оптимизатор tinypng)</td>
+                <td>Оптимизированы</td>
+                    </tr>
+        <tr>
+        <td>
+            11        </td>
+        <td>
+            Средний        </td>
+        <td>Адекватен ли вес картинки (не используется ли полноразмерное изображение для маленькой картинки?)</td>
+                <td>Адекватен</td>
+                    </tr>
+        <tr>
+        <td>
+            12        </td>
+        <td>
+            Средний        </td>
+        <td>Блоки с фоновым изображением имеют фоновую заливку? У такого блока должна быть заливка, соответствующая фоновому изображению</td>
+                <td>Есть заливка</td>
+                    </tr>
+        <tr>
+        <td>
+            13        </td>
+        <td>
+            Средний        </td>
+        <td>Навигация основана на наведении курсора мыши? (если да -- могут быть проблемы с навигацией на мобильных устройствах)</td>
+                <td>На мобильных устройствах навигация создана на основе касания</td>
+                    </tr>
+        <tr>
+        <td>
+            14        </td>
+        <td>
+            Средний        </td>
+        <td>Есть адаптация под мобильные разрешения? Как минимум должны быть элементы управления и текст, применимые на мобильных устройствах</td>
+                <td>Да</td>
+                    </tr>
+        <tr>
+        <td>
+            15        </td>
+        <td>
+            Средний        </td>
+        <td>Используются ли плагины (например, flash)? Лучше отказаться от них или проверить совместимость со всеми браузерами</td>
+                <td>Нет</td>
+                    </tr>
+        <tr>
+        <td>
+            16        </td>
+        <td>
+            Средний        </td>
+        <td>Что сообщает сервис Google PageSpeed Insights?</td>
+                <td>Скорость загрузки, соответствующая требованиям</td>
+                    </tr>
+        <tr>
+        <td>
+            17        </td>
+        <td>
+            Средний        </td>
+        <td>Все ли подключаемые скрипты и стили используются?</td>
+                <td>Да</td>
+                    </tr>
+        <tr>
+        <td>
+            18        </td>
+        <td>
+            Средний        </td>
+        <td>Замедляет ли отображение скрипт, загрузка которого может быть отложена?</td>
+                <td>Нет</td>
+                    </tr>
+        <tr>
+        <td>
+            19        </td>
+        <td>
+            Средний        </td>
+        <td>Отображение в новом Chrome, Firefox, EDGE; Safari (IOS), Chrome (Android)</td>
+                <td>Отображение соответствует макету/дизайн-системе</td>
+                    </tr>
+        <tr>
+        <td>
+            20        </td>
+        <td>
+            Средний        </td>
+        <td>Инструкция DOCTYPE написана одинаково на всех веб-страницах?</td>
+                <td></td>
+                    </tr>
+        <tr>
+        <td>
+            21        </td>
+        <td>
+            Средний        </td>
+        <td>Размер изображений указан? (в HTML в атрибутах "width", "height" или в CSS в свойствами "width", "height")</td>
+                <td>Должен быть указан (предотвращает скачки содержимого при загрузке)</td>
+                    </tr>
+        <tr>
+        <td>
+            22        </td>
+        <td>
+            Средний        </td>
+        <td>Включены ли излишние (избыточные) элементы (изображения, шрифты, скрипты, стили и т.д.)?</td>
+                <td>Нет</td>
+                    </tr>
+            </table>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> 
+(function (d, w, c) { (w[c] = w[c] || []).push(function() {
+	try { w.yaCounter43980704 = new Ya.Metrika({
+			id:43980704,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true
+		}); }
+	catch(e) { } });
+	var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript"; s.async = true;
+	s.src = "https://mc.yandex.ru/metrika/watch.js";
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); }
+	else { f(); } })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43980704" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
